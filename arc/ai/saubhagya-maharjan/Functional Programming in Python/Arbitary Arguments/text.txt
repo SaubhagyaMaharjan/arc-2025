@@ -1,0 +1,17 @@
+-Using *args and **kwargs to accept a variable number of arguments.
+-Before learning about *args and *kwargs, we must have good understanding of Unpacking conceps in python.
+
+**Unpacking in Python**
+-Unpacking in Python is a powerful feature that allows you to assign values from a collection (such as a list, tuple, dictionary, etc.) to multiple variables in a single statement.
+- This feature can simplify your code and make it more readable.
+
+## '*args' and '**kwargs' in Python
+-args and **kwargs are used to pass a variable number of arguments to a function. So often called as variadic arguments and variadic functions.
+-This allows for greater flexibility and enables functions to handle a varying number of input arguments.
+-Usage: When you are unsure of how many arguments might be passed to a function.
+-*args allows a function to accept any number of positional arguments.
+-**kwargs allows a function to accept any number of keyword arguments.
+-When defining a function that uses *args and **kwargs, the order of parameters should be:
+  1. Regular positional arguments
+  2. *args
+  3. **kwargs

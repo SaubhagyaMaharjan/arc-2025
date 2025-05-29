@@ -1,0 +1,12 @@
+## Iterable
+An iterable is any Python object capable of returning its members one at a time, allowing it to be iterated over in a loop.
+Examples: Lists, tuples, strings, dictionaries, and sets
+An object is considered an iterable if it implements the iter() method, which returns an iterator.
+
+## Iterator
+An iterator is an object representing a stream of data.
+It returns one element at a time when you call the next() function on it.
+Examples: Objects that implement both the iter() and next() methods are iterators.
+An iterator keeps state and remembers where it is during iteration. When next() is called, the iterator returns the next item in the sequence.
+If there are no further elements, then the method next() will raise an exception to StopIteration.
+Every iterator is basically iterable but reverse may not be true.

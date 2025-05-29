@@ -1,0 +1,45 @@
+Name is a label or variable that points to a value in memory.
+Eg, x = 10 then x is Name
+Namespace is a container that holds names and their corresponding values or object.
+Eg, 
+{
+    "x' = 10,
+    'name' = 'Ram'
+}
+
+Types of Namespaces in Python:
+1) Local Namespace
+- Inside a function
+- Created when function is called, destroyed when it ends
+
+2) Global Namespace
+- At the top level of your script or module
+
+3) Built-in Namespace
+- Contains built-in functions like print(), len(), etc.
+
+Eg,
+def greet():
+    user = "Ram"     # Local name
+    print("Hello", user)
+
+name = "Sita"         # Global name
+greet()
+
+## Tuples in Python
+A tuple is an ordered collection of items that are immutable (cannot be changed after creation).
+-This immutability makes tuples a suitable choice for data that should not be modified.
+-Tuples are defined using parentheses ().
+-Tuples can be homogenous or heterogenous collection.
+-Tuples allow duplicate elements.
+
+##Sets in Python
+-Sets are an unordered collection of unique elements in Python.
+-They are defined using curly braces {} or the set() constructor.
+-Useful for operations like removing duplicates, and performing mathematical set 
+operations like union, intersection, and difference.
+
+
+
+#One line calculator
+while True: print (eval(input(">>>")))
